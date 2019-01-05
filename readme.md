@@ -101,6 +101,7 @@ app.get('redirect', (req, res) => {
 ```
 ## Redirect Token Content
 The Token will be encoded with the same secret shared by ZainCash, and it will contain:
+
 | Property | Description |
 | ------ | ------ |
 | status | String that will be equal to 'success' or 'failed' |
