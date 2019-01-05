@@ -45,7 +45,7 @@ const paymentData = {
 // payment route handler
 app.post('/pay', (req, res) => {
   let zc = new ZC(paymentData);
-  x = zc.init().then(transactionId => {
+  zc.init().then(transactionId => {
     //  Save the transactionId in your DB
     console.log(transactionId);
     zc.pay(transactionId, res);
