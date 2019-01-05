@@ -27,7 +27,7 @@ plase check the simple code below
 ```
 const express = require('express');
 const app = express();
-const ZC = require('./zaincash');
+const ZC = require('zaincash');
 
 // preparing payment data
 const paymentData = {
