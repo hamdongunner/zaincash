@@ -16,11 +16,11 @@ Install the zaincash package by running this command:
   - And install [request](https://www.npmjs.com/package/request) library in order to get redirected to ZainCash payment page.
 
 ## Quick Start !
-1 - You have to create a route handler that will handle the payment process.
-2 - Require zaincash package inside your app.
-3 - ZainCash package exporting a class so you will have to create a new instance from it
-4 - Call zaincash init function to initialize the payment, this function will return a promise so you will have to handle it.
-5 - init function will return a ZainCash transaction id that you can send as a parameter to pay function in order to get redirected to ZainCash payment page.
+- You have to create a route handler that will handle the payment process.
+- Require zaincash package inside your app.
+- ZainCash package exporting a class so you will have to create a new instance from it
+- Call zaincash init function to initialize the payment, this function will return a promise so you will have to handle it.
+- init function will return a ZainCash transaction id that you can send as a parameter to pay function in order to get redirected to ZainCash payment page.
 
 
 plase check the simple code below
@@ -108,4 +108,4 @@ The Token will be encoded with the same secret shared by ZainCash, and it will c
 | id | ZainCash transaction id, it will be string ie: '58650f0f90c6362288da08cf' |
 | iat | TimeStamp of token creation |
 | exp | TimeStamp of token expiry |
-| msg | In case of failure this will return the reason, ie: "Invalid credentials for requester" |
+| msg | In case of failure this will return the reason, ie: 'Invalid credentials for requester' |
