@@ -1,0 +1,24 @@
+{
+  "name": "zaincash",
+  "version": "1.0.0",
+  "description": "a package that will handel the payment through zaincash payment method",
+  "main": "zaincash.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdongunner/zaincash.git"
+  },
+  "author": "Hamdon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamdongunner/zaincash/issues"
+  },
+  "homepage": "https://github.com/hamdongunner/zaincash#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "request": "^2.88.0"
+  }
+}
