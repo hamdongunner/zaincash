@@ -14,6 +14,7 @@ class Zaincash {
     lang
   }) {
     this.amount = amount;
+    this.orderId = orderId;
     this.serviceType = serviceType;
     this.redirectUrl = redirectUrl;
     this.msisdn = msisdn;

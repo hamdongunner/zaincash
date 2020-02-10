@@ -1,6 +1,6 @@
 {
   "name": "zaincash",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a package that will handel the payment through zaincash payment method",
   "main": "zaincash.js",
   "scripts": {
