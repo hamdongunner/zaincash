@@ -1,6 +1,6 @@
 {
   "name": "zaincash",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a package that will handel the payment through zaincash payment method",
   "main": "zaincash.js",
   "scripts": {
@@ -20,5 +20,8 @@
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0",
     "request": "^2.88.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
