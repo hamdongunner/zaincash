@@ -17,11 +17,8 @@
   },
   "homepage": "https://github.com/hamdongunner/zaincash#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "jsonwebtoken": "^8.4.0",
-    "request": "^2.88.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2"
   }
 }

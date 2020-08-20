@@ -63,7 +63,7 @@ class Zaincash {
         if (error) reject(error);
         if (response && response.body && JSON.parse(response.body).id)
           resolve(JSON.parse(response.body).id);
-        reject(response.body);
+        reject(response);
       });
     });
   }
